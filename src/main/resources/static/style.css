@@ -1,0 +1,75 @@
+body{
+	font-family: sans-serif;
+    margin: 2em;
+}
+h1{
+    text-align: center;
+    color: gray;
+    font-weight: 300;
+    font-size: 40px;
+}
+h1:hover{
+    font-weight: 400;
+    cursor: pointer;
+    transform: rotate(1deg);
+}
+        
+p{
+    color: #777;
+}
+        
+.Restaurants {
+	color: white;
+	display: grid;
+	grid-template-columns: repeat(2, 400px);
+	grid-column-gap: 50px;
+	grid-row-gap: 50px;
+	grid-template-rows: 60vh;
+	justify-content: center;
+	margin: 0 auto;
+	
+}
+
+.restaurant{
+    text-decoration: none;
+    text-align: center;
+    height: 60vh;
+    
+
+    display: grid;
+    grid-template-rows: 50px 1fr;
+    border: 1px solid #777;
+    border-radius: 5px;
+    background-color: #696969;
+   
+    
+}
+
+.name{
+    margin: 0 auto;
+    width: 100%;
+    align-self: center;
+    
+}
+
+.image-container{
+  background-size: cover;
+  background-position: center;
+  
+	
+  clear: both;
+  }div.row span.label {
+  float: right;
+  width: 100px;
+  text-align: right;
+  }div.row span.formw {
+  float: right;
+  width: 335px;
+  text-align: left;
+}
+
+
+
+
+
+

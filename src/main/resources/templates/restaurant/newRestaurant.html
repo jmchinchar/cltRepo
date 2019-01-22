@@ -1,0 +1,34 @@
+<!DOCTYPE>
+<html xmlns:t"http://www.thymeleaf.org">
+<head>
+    <title>Create New Restaurant</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="content top-padding">
+        <p>Please use the form below to subscribe</p>
+        <form action="#" th:action="@{/result}" th:object="${restaurant}" method="post">
+            <table>
+                <tr>
+                    <td>Restaurant Name: </td>
+                    <td><input type="text" th:field="*{restaurantName}" /></td>
+                </tr>
+                <tr>
+                    <td>Restaurant Image: </td>
+                    <td><input type="text" th:field="*{imageUrl}" /></td>
+                </tr>
+                <tr>
+                    <td>Restaurant Email: </td>
+                    <td><input type="email" th:field="*{email}" /></td>
+                </tr>
+                <tr>
+                    <td><button type="submit">Submit</button></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>
